@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.css">
+  <!-- <script src="node_modules/vue-color/dist/vue-color.min.js"></script> -->
+</head>
+
+<body>
+  <div id="colors">
+    <!-- This is hidden, but very important -->
+    <input type="color" id="colorPicker" v-model="color" hidden>
+
+    <section class="hero is-dark is-fullheight">
+      <div class="hero-body">
+        <div class="columns">
+          <a href="#" @click="clickColorPicker" class="button is-dark is-large">
+            Choose your color
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
+
+<script src="colors.js"></script>
