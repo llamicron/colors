@@ -4,31 +4,14 @@
   <title>
     LED Controller
   </title>
+  <link rel="stylesheet" href="(( url_for('static', filename='styles.css') ))">
 </head>
 
 <body>
-  <div id="colors">
-    <!-- This is hidden, but very important -->
-    <input type="color" id="colorPicker" v-model="color" hidden>
-
-    <section class="hero is-dark is-fullheight">
-      <div class="hero-body">
-        <div class="notification is-dark" @click="clickColorPicker" style="height: 85%; width: 100%">
-          <div class="has-text-centered">
-            <h1 class="title">
-              Click to choose your color
-              {{ color }}
-            </h1>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <script src="(( url_for('static', filename='axios.min.js') ))"></script>
+  <script src="(( url_for('static', filename='d3.min.js') ))"></script>
+  <script src="(( url_for('static', filename='tinycolor.js') ))"></script>
+  <script src="(( url_for('static', filename='colorwheel.js') ))"></script>
+  <script src="(( url_for('static', filename='vue.min.js') ))"></script>
+  <script src="(( url_for('static', filename='colors.js') ))"></script>
 </body>
-
-</html>
-
-<script src="(( url_for('static', filename='axios.min.js') ))"></script>
-<script src="(( url_for('static', filename='vue.min.js') ))"></script>
-<link rel="stylesheet" href="(( url_for('static', filename='bulma.css') ))">
-<script src="(( url_for('static', filename='colors.js') ))"></script>
