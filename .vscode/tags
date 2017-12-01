@@ -5,18 +5,17 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 Flask	../colors/app.py	/^from flask import Flask, render_template, request$/;"	kind:namespace	line:1
-app	../colors/app.py	/^app = Flask(__name__)$/;"	kind:variable	line:2
+app	../colors/app.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
 app.py	../colors/app.py	1;"	kind:file	line:1
-block_end_string	../colors/app.py	/^    block_end_string='%)',$/;"	kind:variable	line:8
-block_start_string	../colors/app.py	/^    block_start_string='(%',$/;"	kind:variable	line:7
-colorReceiver	../colors/app.py	/^def colorReceiver():$/;"	kind:function	line:33
-comment_end_string	../colors/app.py	/^    comment_end_string='#)'$/;"	kind:variable	line:12
-comment_start_string	../colors/app.py	/^    comment_start_string='(#',$/;"	kind:variable	line:11
-hex_to_rgb	../colors/app.py	/^def hex_to_rgb(hex_string):$/;"	kind:function	line:16
-index	../colors/app.py	/^def index():$/;"	kind:function	line:29
-jinja_options	../colors/app.py	/^jinja_options = app.jinja_options.copy()$/;"	kind:variable	line:4
+block_end_string	../colors/app.py	/^    block_end_string='%)',$/;"	kind:variable	line:9
+block_start_string	../colors/app.py	/^    block_start_string='(%',$/;"	kind:variable	line:8
+colorReceiver	../colors/app.py	/^def colorReceiver():$/;"	kind:function	line:34
+comment_end_string	../colors/app.py	/^    comment_end_string='#)'$/;"	kind:variable	line:13
+comment_start_string	../colors/app.py	/^    comment_start_string='(#',$/;"	kind:variable	line:12
+index	../colors/app.py	/^def index():$/;"	kind:function	line:30
+jinja_options	../colors/app.py	/^jinja_options = app.jinja_options.copy()$/;"	kind:variable	line:5
 render_template	../colors/app.py	/^from flask import Flask, render_template, request$/;"	kind:namespace	line:1
 request	../colors/app.py	/^from flask import Flask, render_template, request$/;"	kind:namespace	line:1
-updateLEDs	../colors/app.py	/^def updateLEDs(color):$/;"	kind:function	line:23
-variable_end_string	../colors/app.py	/^    variable_end_string='))',$/;"	kind:variable	line:10
-variable_start_string	../colors/app.py	/^    variable_start_string='((',$/;"	kind:variable	line:9
+updateLEDs	../colors/app.py	/^def updateLEDs(color):$/;"	kind:function	line:24
+variable_end_string	../colors/app.py	/^    variable_end_string='))',$/;"	kind:variable	line:11
+variable_start_string	../colors/app.py	/^    variable_start_string='((',$/;"	kind:variable	line:10

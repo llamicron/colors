@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
+from flask_compress import Compress
 
 app = Flask(__name__)
+Compress(app)
 
 jinja_options = app.jinja_options.copy()
 
